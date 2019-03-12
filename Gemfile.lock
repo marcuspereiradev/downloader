@@ -1,0 +1,25 @@
+GEM
+  specs:
+    execjs (2.7.0)
+    mini_portile2 (2.4.0)
+    nokogiri (1.10.1)
+      mini_portile2 (~> 2.4.0)
+    rack (1.6.11)
+    rack-protection (1.5.5)
+      rack
+    sinatra (1.4.8)
+      rack (~> 1.5)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    tilt (2.0.9)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  execjs
+  nokogiri (~> 1.6, >= 1.6.8)
+  sinatra
+
+BUNDLED WITH
+   1.16.6

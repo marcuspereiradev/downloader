@@ -1,0 +1,11 @@
+- receber o link do vídeo do youtube;
+- ir até a página
+- extrair a segunda tag script dentra da div com id=player
+- adicionar um window pra não quebrar pois não é uma página web | window = {}
+- executar esse conteúdo como js
+- após isso terá acesso a variavel ytplayer
+- fazer o json parse do caminho da variavel
+- caminho " ytplayer.config.args.player_response "
+- acessar streamingData.adaptiveFormats
+
+- 
